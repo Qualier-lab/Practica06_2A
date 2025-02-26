@@ -58,7 +58,7 @@ try:
         
     elif opcion == 5:
         kelvin = float(input("Ingresa la temperatura en grados Kelvin: "))
-        fahrenheit = kelvin_a_celsius(kelvin)
+        celsius = kelvin_a_celsius(kelvin)
         print(kelvin, "grados Kelvin son", celsius, "grados Celsius.")
     
     elif opcion == 6:
